@@ -23,6 +23,7 @@ It will generate a random motivating message for you!  Run the same command agai
 
 **To install Node js:
 * go to the [Node js](https://nodejs.org/) website. 
+<br>
 OR
 * go to [Nvm(Node Version Manager)](https://github.com/nvm-sh/nvm) for Mac and Linux or [Nvm-Windows](https://github.com/coreybutler/nvm-windows) for Windows.
 
