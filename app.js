@@ -14,11 +14,8 @@ const createMessage = () => {
         }
     }
     if(endPhraseArr[phraseIndex] !== '!') {
-        if (phraseIndex === 3){
-            message.push(endPhraseArr[2]);
-        } else {
-            message.push(endPhraseArr[phraseIndex]);
-    }}
+        message.push(endPhraseArr[phraseIndex]);
+    }
 
     let messageStr = message.join(' ');
 
