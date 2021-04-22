@@ -1,7 +1,7 @@
 const createMessage = () => {
-    const startPhraseArr = ['You are', 'You are a', 'Have a'];
+    const startPhraseArr = ['You are', 'You are a', 'Have a','Today will be a'];
     const endPhraseArr = ['!', 'person!', 'day!'];
-    const adjArr = ['incredible', 'great', 'awesome', 'amazing', 'exhilarating'];
+    const adjArr = ['incredible', 'great', 'awesome', 'amazing', 'exhilarating', 'bright','fun', 'extraordinary'];
     const message = [];
 
     const phraseIndex = Math.floor(Math.random() * startPhraseArr.length);
@@ -14,8 +14,11 @@ const createMessage = () => {
         }
     }
     if(endPhraseArr[phraseIndex] !== '!') {
-        message.push(endPhraseArr[phraseIndex]);
-    }
+        if (phraseIndex === 3){
+            message.push(endPhraseArr[2]);
+        } else {
+            message.push(endPhraseArr[phraseIndex]);
+    }}
 
     let messageStr = message.join(' ');
 
@@ -27,7 +30,7 @@ const createMessage = () => {
 }
 
 const sayMessage = () => {   
-    console.log(` Here is your motivating message: \n   ${createMessage()} \n Hope you enjoyed it!  Thanks for trying out my project. \n Run this again to get a new message! - AdvayCoder`);
+    console.log(`${createMessage()} \n`);
 }
 
 sayMessage();
