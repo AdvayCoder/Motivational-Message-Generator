@@ -19,7 +19,7 @@ It will generate a random motivating message for you!  Run the same command agai
 <br><br>
 
 
-*For Windows, to install use bash, you will need Git Bash.  Go to [Git Bash](https://gitforwindows.org/) to install it.
+*For Windows, to use bash, you will need Git Bash.  Go to [Git Bash](https://gitforwindows.org/) to install it.
 
 **To install Node js you can do one of these steps:
 * go to the [Node js](https://nodejs.org/) website. 
