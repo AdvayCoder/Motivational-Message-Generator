@@ -1,11 +1,12 @@
 <html>
   <script src="app.js"></script>
   <h1 id="heading">Motivational Message Generator</h1>
-  <div id="msg"></div><br><br><br><br>
-  <button onclick="run()">Generate</button>
+  <div id="msg">Click the button to generate!</div><br><br><br><br>
+  <button onclick="run()">Generate A Message!</button>
   <script>
-    
     var elem = document.getElementById("msg");
-    
+    function run() {
+    elem.innerHTML = createMessage();
+    }
   </script>
 </html>
