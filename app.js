@@ -1,6 +1,6 @@
 const createMessage = () => {
     const startPhraseArr = ['You are', 'You are a', 'Have a','Today will be a'];
-    const endPhraseArr = ['!', 'person!', 'day!'];
+    const endPhraseArr = ['!', 'person!', 'day!', 'day!'];
     const adjArr = ['incredible', 'great', 'awesome', 'amazing', 'exhilarating', 'bright','fun', 'extraordinary'];
     const message = [];
 
