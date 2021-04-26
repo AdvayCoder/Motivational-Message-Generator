@@ -27,7 +27,9 @@ const createMessage = () => {
 }
 
 const sayMessage = () => {   
-    console.log(`${createMessage()} \n`);
+    console.log(`${createMessage()} \n \n Run this again to get a new message!`);
 }
 
-sayMessage();
+if (typeof window === 'undefined') {
+    sayMessage();
+}

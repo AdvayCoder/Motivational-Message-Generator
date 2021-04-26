@@ -10,7 +10,7 @@ This creates a random motivating message every time you run it!
 
   
 
-To use it, download this code and open the folder. You will need a **terminal* and ***Node js*.  To use it, open up the terminal, and enter the command
+To use it, download this code and open the folder. _Note: You don't need to pay attention to anything except the "app.js" file._ You will need a **terminal* and ***Node js*.  To use it, open up the terminal, and enter the command
 ```
 node app.js
 ```
