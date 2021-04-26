@@ -33,3 +33,9 @@ const sayMessage = () => {
 if (typeof window === 'undefined') {
     sayMessage();
 }
+
+const el = document.getElementById("msg");
+
+function run() {
+    el.innerText = createMessage();
+}

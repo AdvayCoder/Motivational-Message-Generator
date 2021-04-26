@@ -1,9 +1,39 @@
-#heading {
-  font-size: 36px;
-  color: #661160;
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #28d19e;
+  background-color: #4DA7DC;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+button {
+  margin-top: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  background: none;
+  outline: none;
+  border: none;
 }

@@ -1,15 +1,18 @@
-<html>
-  <script src="app.js"></script>
-  <head>
-  <link rel="stylesheet" href="styles.css">
-  </head>
-  <h1 id="heading">Motivational Message Generator</h1>
-  <div id="msg">Click the button to generate!</div><br><br><br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motivational Message Genrator</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <h1>Motivational Message Generator</h1>
   <button onclick="run()">Generate A Message!</button>
-  <script>
-    var elem = document.getElementById("msg");
-    function run() {
-    elem.innerHTML = createMessage();
-    }
-  </script>
+  <p id="msg">Click the button to create a message!</p>
+</body>
 </html>
