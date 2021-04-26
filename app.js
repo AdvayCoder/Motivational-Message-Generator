@@ -27,15 +27,15 @@ const createMessage = () => {
 }
 
 const sayMessage = () => {   
-    console.log(`${createMessage()} \n \n Run this again to get a new message!`);
+    console.log(`${createMessage()} \n \nRun this again to get a new message!`);
 }
 
 if (typeof window === 'undefined') {
     sayMessage();
-}
+} else {
 
 const el = document.getElementById("msg");
 
 function run() {
     el.innerText = createMessage();
-}
+}}
